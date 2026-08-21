@@ -42,3 +42,8 @@ wavespeed price bytedance/seedream-v5.0-pro -i resolution=2k
 ## License
 
 [MIT](LICENSE) — same as the CLI.
+
+---
+
+**[WaveSpeed AI](https://wavespeed.ai/)** — hosted inference for image, video, audio and 3D models.
+Try it in the browser: **[Image generator](https://wavespeed.ai/image-generator)** · **[Video generator](https://wavespeed.ai/video-generator)**
