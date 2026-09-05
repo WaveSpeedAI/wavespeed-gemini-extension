@@ -1,6 +1,6 @@
 {
   "name": "wavespeed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate and edit AI media (image, video, audio, 3D) via the WaveSpeed platform's open-source CLI.",
   "contextFileName": "GEMINI.md"
 }
