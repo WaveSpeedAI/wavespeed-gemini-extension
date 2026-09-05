@@ -16,6 +16,12 @@ Every model on the platform is one `wavespeed run <model-id>` call. The bundled 
 gemini extensions install https://github.com/WaveSpeedAI/wavespeed-gemini-extension
 ```
 
+Qwen Code installs Gemini extensions as-is:
+
+```bash
+qwen extensions install WaveSpeedAI/wavespeed-gemini-extension
+```
+
 ## What the agent can do with it
 
 ```bash
