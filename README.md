@@ -27,7 +27,7 @@ wavespeed run bytedance/seedream-v5.0-pro/edit -p "replace the background with a
   -i images='["@./input.jpg"]' --json
 
 # image → video
-wavespeed run bytedance/seedance-2.5/image-to-video -p "subtle parallax" -i image=@./hero.jpg --json
+wavespeed run wavespeed-ai/minimax-h3/image-to-video -p "subtle parallax" -i image=@./hero.jpg --json
 
 # check the cost before running anything
 wavespeed price bytedance/seedream-v5.0-pro -i resolution=2k
@@ -38,6 +38,7 @@ wavespeed price bytedance/seedream-v5.0-pro -i resolution=2k
 - Claude Code / Cursor / Codex: `wavespeed skill install`
 - OpenCode: loads the installed skill as-is (`.claude/skills/` is on its search path)
 - DeepSeek Harness: [WaveSpeedAI/wavespeed-dsh-skill](https://github.com/WaveSpeedAI/wavespeed-dsh-skill)
+- Kimi Code CLI: [WaveSpeedAI/wavespeed-kimi-plugin](https://github.com/WaveSpeedAI/wavespeed-kimi-plugin)
 
 ## License
 
