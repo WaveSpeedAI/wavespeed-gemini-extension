@@ -40,8 +40,9 @@ wavespeed run <model-id> -p "..." --json
 
 ## Same skill, other agents
 
-- Claude Code / Cursor / Codex: `wavespeed skill install`
-- OpenCode: loads the installed skill as-is (`.claude/skills/` is on its search path)
+- Claude Code / Cursor / Codex without plugins: `wavespeed skill install`
+- Codex: [WaveSpeedAI/codex-plugins](https://github.com/WaveSpeedAI/codex-plugins)
+- OpenCode: [WaveSpeedAI/wavespeed-opencode](https://github.com/WaveSpeedAI/wavespeed-opencode)
 - DeepSeek Harness: [WaveSpeedAI/wavespeed-dsh-skill](https://github.com/WaveSpeedAI/wavespeed-dsh-skill)
 - Kimi Code CLI: [WaveSpeedAI/wavespeed-kimi-plugin](https://github.com/WaveSpeedAI/wavespeed-kimi-plugin)
 
